@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend:{
+
+                spacing:{
+                    '13': '3.25rem',
+                },
+                fontFamily:{
+                    inter:['Inter']
+            }
+          }
+        }
+    }
+      </script>
+    <!-- <style type="text/tailwindcss">
+        * {
+            border: 1px solid red;
+        }
+    </style> -->
+
+</head>
+<body>
+    <h1 class="text-6xl font-extrabold text-center my-8">Mari belajar CSS TAILWIND</h1>
+    <section class="mb-10 bg-indigo-200">
+        <h2 class="text-3xl text-center">Spacing</h2>
+        <div class="m-13 bg-red-200">Margin</div>
+        <div class="p-8 bg-red-200">Padding</div>
+    </section>
+
+    <section class="mb-10 bg-cyan-200">
+        <h2 class="text-3xl text-center">Sizing</h2>
+        <div class="w-32 h-32 bg-red-200">Kotak 1</div>
+        <div class="max-w-xs bg-blue-200">Kotak 2</div>
+    </section>
+    <section class="font-inter max-w-3xl mx-auto">
+        <h2 class="mb-2 text-4xl font-bold">Belajar mengenai typografi pada tailwindcss</h2>
+        <div class="mb-4 text-lg text-gray-500">
+            By <a href="#" class="font-gray-800 font-semibold">Iamho Pegodang</a> 2025
+        </div>
+        <blockquote class="mb-4 italic ">
+            "Lorem ipsum dolor, <a href="#" class="underline font-semibold text-blue-600">sit amet</a> consectetur adipisicing elit. Aliquid nobis labore cupiditate eaque ex, quibusdam numquam eum at nemo facilis sint, placeat eveniet doloremque! Suscipit sit placeat aspernatur iusto expedita totam consequuntur facilis fugiat qui commodi, doloribus fugit enim natus!""
+        </blockquote>
+        <p class="mb-4  font-thin text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur libero eos dolorum ipsum, atque accusamus culpa facere ut repudiandae mollitia!
+        </p>
+        <p class="mb-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, quis!
+
+        </p>
+    </section>
+    <div class="max-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] overflow-y-scroll bg-fixed" style="background-image: url('https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D/')" >
+        <p class="p-5 text-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque iure beatae facilis facere doloribus corrupti vitae dolorem sit accusantium sint temporibus ut, unde distinctio quasi! Dolorem dignissimos, dolorum porro ab officia minima veniam architecto inventore, deserunt ullam illo. Est, ab quis. Rem, deserunt quasi, corrupti, nesciunt libero nostrum ipsam aspernatur repellendus quam voluptatum dignissimos architecto! Aspernatur qui similique molestias vitae. Nostrum optio quo earum suscipit corporis facilis nulla, voluptate ullam, animi reiciendis quam, et beatae facere dolorem perspiciatis. Inventore et doloribus ducimus illo facilis non provident ipsum fuga ab officiis asperiores, mollitia maiores reprehenderit modi repudiandae laboriosam enim? Animi voluptatem voluptas mollitia culpa quaerat libero rerum ratione quia incidunt et? Qui enim, quasi, molestias quo, rerum eligendi laborum dignissimos cum fugiat perferendis repellendus blanditiis recusandae excepturi. Dolor consequatur accusamus recusandae optio corrupti cupiditate, rem eligendi a itaque numquam maiores architecto nostrum nihil impedit incidunt eaque qui! Quibusdam magnam quia velit corrupti assumenda, ducimus libero ad obcaecati voluptatum, adipisci iste maxime fuga fugiat quasi! Mollitia nesciunt exercitationem facilis consequuntur architecto, rem, neque ad tempora quam voluptatum laudantium possimus qui fugit! Velit incidunt beatae dolores doloribus dignissimos nihil temporibus, voluptatem reprehenderit laborum voluptate. Tempore id ut voluptas? Consequatur, provident. Eveniet, nesciunt at.</p>
+    </div>
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-400 bg-contain bg-no-repeat bg-center rounded-2xl border-spacing-1 border-slate-400 shadow-2xl shadow-slate-500 " style="background-image: url('./img/2.png')">
+        
+
+        </div>
+        <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-400 bg-contain bg-no-repeat bg-center rounded-2xl border-4 border-slate-400 shadow-2xl shadow-slate-500" style="background-image: url('./img/2.png')">
+            <div class="w-full h-full bg-blue-200 mix-blend-multiply">
+                
+            </div>
+            <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-400 bg-contain bg-no-repeat bg-center rounded-2xl border-spacing-1 border-slate-400 shadow-2xl shadow-slate-500 bg-blend-multiply" style="background-image: url('./img/2.png')">
+                
+        
+                </div>
+            <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-400 bg-contain bg-no-repeat bg-center rounded-2xl border-spacing-1 border-slate-400 shadow-2xl shadow-slate-500 bg-blend-multiply blur-sm" style="background-image: url('./img/2.png')">
+                
+        
+                </div>
+    </div>
+    <div class="mb-96"></div>
+</body>
+</html>
